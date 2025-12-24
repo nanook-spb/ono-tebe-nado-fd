@@ -1,1 +1,48 @@
-/* место для вашего кода */
+/* Header content */
+.header {
+
+display: grid;
+grid-template-columns: 1fr min-content 1fr;
+align-items: center;
+padding-top: 70px; 
+padding-left: 30px;
+padding-bottom: 96px;
+padding-right: 20px;
+}
+
+.header__menu {
+  list-style: circle;
+  display: flex;
+  gap: 30px;
+}
+
+.header__menu-list {
+
+  
+} 
+
+.logo {
+  width: 148px;
+  height: 105px;
+}
+
+/* Cover content */
+.cover {
+
+}
+
+/* Lots content */
+.lots {
+
+}
+
+/* About content */
+.about {
+
+}
+
+/* Footer content */
+.footer {
+
+}
+
