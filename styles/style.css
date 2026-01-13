@@ -27,13 +27,17 @@ font-size: 18px;
   height: 105px;
 }
 
-.header__address {
-  line-height: 24.3px;
+.address{
   display: flex;
   flex-direction: column;
+  line-height: 24.3px;
+}
+
+.header__address {
   justify-self: end;
   align-items: flex-start;
   padding-right: 35px;
+  max-width: 240px;
 }
 
 .address__item {
