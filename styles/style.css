@@ -4,26 +4,38 @@
 display: grid;
 grid-template-columns: 1fr min-content 1fr;
 align-items: center;
-padding-top: 70px; 
-padding-left: 30px;
-padding-bottom: 96px;
-padding-right: 20px;
+padding: 92px 50px 96px 50px;
+font-size: 18px;
 }
 
 .header__menu {
   list-style: circle;
   display: flex;
-  gap: 30px;
+  gap: 33px;
 }
 
-.header__menu-list {
+.main_link {
+  list-style-type: none;
+}
 
-  
-} 
+.list-link {
+  text-decoration: none;
+}
+
+.underline_link {
+  text-decoration: underline;
+}
 
 .logo {
   width: 148px;
   height: 105px;
+}
+
+.address {
+  padding-left: 187px;
+  font-style: normal;
+  line-height: 24.3px;
+  list-style-type: none;
 }
 
 /* Cover content */
