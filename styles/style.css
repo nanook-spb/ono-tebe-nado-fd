@@ -22,20 +22,27 @@ font-size: 18px;
   text-decoration: none;
 }
 
-.underline_link {
-  text-decoration: underline;
-}
-
 .logo {
   width: 148px;
   height: 105px;
 }
 
-.address {
-  padding-left: 187px;
-  font-style: normal;
+.header__address {
   line-height: 24.3px;
-  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  align-items: flex-start;
+  padding-right: 35px;
+}
+
+.address__item {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.underline_link {
+  text-decoration: underline;
 }
 
 /* Cover content */
