@@ -12,21 +12,21 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <nav>
-        <ul class="header__menu">
-          <li class="main_link">
-            <a class="list-link" href="#0">главная</a>
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item_no-bullit">
+            <a class="header__link" href="#0">главная</a>
           </li>
           <li>
-            <a class="list-link underline_link" href="#0">посмотреть лоты</a>
+            <a class="header__link underline_link" href="#0">посмотреть лоты</a>
           </li>
           <li>
-            <a class="list-link underline_link" href="#0">об аукционе</a>
+            <a class="header__link underline_link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a> 
-        <img class="logo"src="./images/logo-black.svg" alt="Логотип черный">
+      <a class="header__logo"> 
+        <img class="header__logo-image"src="./images/logo-black.svg" alt="Логотип черный">
       </a>
       <address class="address header__address">
         <a class="address__item underline_link" href="tel:+99995555555">+9 999 555 5555</a>
@@ -39,10 +39,14 @@
     <main>
       <!-- Cover -->
       <section class="cover">
-        <h1></h1>
+        <h1 class="cover__title">
+          <span class="aligned-text aligned-text_left">оно</span>
+          <span class="aligned-text aligned-text_center">тебе</span>
+          <span class="aligned-text aligned-text_right">надо</span>
+        </h1>
         <div class="cover__description">
-          <p class="cover__description-text"></p>
-          <button class="cover__description-button"></button>
+          <p class="cover__description-text">аукцион вещей, в которые никто не верил</p>
+          <button class="bet-button">сделать ставку</button>
         </div>
       </section>
       <!-- Lots -->

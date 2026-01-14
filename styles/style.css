@@ -5,24 +5,28 @@ display: grid;
 grid-template-columns: 1fr min-content 1fr;
 align-items: center;
 padding: 92px 50px 96px 50px;
-font-size: 18px;
+height: 293px;
 }
 
 .header__menu {
+  font-size: 18px;
+}
+
+.header__links-list {
   list-style: circle;
   display: flex;
   gap: 33px;
 }
 
-.main_link {
+.header__links-list-item_no-bullit {
   list-style-type: none;
 }
 
-.list-link {
+.header__link {
   text-decoration: none;
 }
 
-.logo {
+.header__logo-image {
   width: 148px;
   height: 105px;
 }
@@ -31,6 +35,7 @@ font-size: 18px;
   display: flex;
   flex-direction: column;
   line-height: 24.3px;
+  font-size: 18px;
 }
 
 .header__address {
@@ -51,7 +56,76 @@ font-size: 18px;
 
 /* Cover content */
 .cover {
+background-image: url(../images/cover.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+z-index: 0;
+min-height: 757px;
+}
 
+.cover::after { /* Взято с Доки https://doka-guide.vercel.app/css/z-index/ */
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgb(0 0 0 / 0.6);
+  z-index: -1;
+}
+
+
+.cover__title {
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1.28;
+  letter-spacing: 0.3em;
+  color: white;
+  z-index: 1;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_left {
+  margin-left: 0.5em;
+  padding-top: 1.58em;
+}
+
+.aligned-text_center {
+  margin-left: 3.8em;
+  padding-top: 0.07em;
+}
+
+.aligned-text_right {
+  margin-left: 6.64em;
+  padding-top: 0.08em;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  line-height: 28px;
+  color: #fff;
+  text-transform: uppercase;
+  word-spacing: 19px;
+}
+
+.bet-button {
+  width: 256px;
+  height: 51px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
 }
 
 /* Lots content */
