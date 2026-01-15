@@ -30,7 +30,7 @@
   height: 105px;
 }
 
-.address{
+.address {
   display: flex;
   flex-direction: column;
   line-height: 24.3px;
@@ -247,7 +247,6 @@ min-height: 757px;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-top: 100px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
